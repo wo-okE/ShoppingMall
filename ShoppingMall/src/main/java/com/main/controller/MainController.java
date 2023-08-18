@@ -1,4 +1,4 @@
-package com.shop.controller;
+package com.main.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Controller
-public class HomeController {
+public class MainController {
 	
 	
 	@GetMapping("/")
